@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+DocumentRoot D:/website.wwwroot/
+ServerName www.singsky.cn
+  <Directory "D:/website.wwwroot/">
+      Options Indexes FollowSymLinks MultiViews
+      AllowOverride all
+      Order allow,deny
+      Allow from all
+  </Directory>
+</VirtualHost>
